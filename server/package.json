@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "DB_STRING=mongodb+srv://saikumarponnaganti99:mongodb@crud-operation-prof-det.vjfcsg9.mongodb.net nodemon index.js",
+    "dev": "DB_STRING=mongodb+srv://saikumarponnaganti99:mongodb@crud-operation-prof-det.vjfcsg9.mongodb.net node index.js",
     "start": "node index.js"
   },
   "author": "",
