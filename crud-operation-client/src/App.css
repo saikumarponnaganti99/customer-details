@@ -4,10 +4,16 @@
 body {
   background-color: #f5f6ff;
 }
+.main-heading{
+  color: coral;
+  font-size: 14px;
+  text-align: center;
+
+}
 .container {
   padding: 10px;
-
-  max-width: fit-content;
+  overflow-x: scroll;
+  max-width: ;
   margin: 50px auto;
 }
 .btn {
@@ -32,7 +38,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  
 }
 .addContainer form {
   width: 500px;
@@ -83,8 +89,8 @@ body {
   
 }
 
-.tableContainer table tbody tr {
-  border: 1px solid #c9c5c2;
+.tableContainer table tbody{
+  overflow: auto;
   
 }
 
@@ -101,6 +107,7 @@ body {
   margin-top: 50px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  width: fit-content;
 }
 
 .tableContainer table tbody tr td{

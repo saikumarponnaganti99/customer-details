@@ -101,6 +101,7 @@ function App() {
   return (
     <>
       <div className="container">
+      <h1 className="main-heading">This is a simple form without validation. Details will be saved in my Mongodb database</h1>
         <button className="btn btn-add" onClick={() => setAddSection(true)}>
           Add
         </button>
