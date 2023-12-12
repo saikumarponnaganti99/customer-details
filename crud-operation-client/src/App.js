@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import FormTable from "./components/FormTable";
-
 import axios from "axios";
 
 axios.defaults.baseURL = "http://localhost:8080/";
