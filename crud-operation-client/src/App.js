@@ -165,7 +165,7 @@ function App() {
             {dataList.length > 0 ? null : <p className="noDataText">No Data</p>}
           </div>
         </div>
-        <p className="slide-left-text">Slide left to see more details...</p>
+        <p className="slide-left-text">Swipe left to see more details...</p>
       </div>
     </>
   );
