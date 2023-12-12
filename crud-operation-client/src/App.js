@@ -42,6 +42,11 @@ function App() {
       setAddSection(false);
       alert(data.data.message);
       getFetchData();
+      setFormData({
+        name: "",
+        email: "",
+        mobile: ""
+      })
     }
   };
 
