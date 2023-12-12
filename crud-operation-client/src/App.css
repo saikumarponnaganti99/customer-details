@@ -15,6 +15,10 @@ body {
   overflow-x: scroll;
   max-width: ;
   margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .btn {
   border: none;
@@ -47,6 +51,7 @@ body {
   flex-direction: column;
   padding: 40px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .addContainer label {
@@ -77,6 +82,7 @@ body {
   border-radius: 20px;
   border: 1px solid #000;
   cursor: pointer;
+  
 }
 
 .addContainer{
@@ -89,13 +95,6 @@ body {
   
 }
 
-.tableContainer table tbody{
-  overflow: auto;
-  
-}
-
-
-
 .tableContainer table thead tr th,
 .tableContainer table tbody tr td{
   min-width: 200px;
@@ -104,10 +103,13 @@ body {
   text-align: center;
 }
 .tableContainer {
+  
   margin-top: 50px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  width: fit-content;
+  width: 100%;
+  max-width: 810px;
+  overflow: auto;
 }
 
 .tableContainer table tbody tr td{
