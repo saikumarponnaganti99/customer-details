@@ -3,7 +3,7 @@ import "./App.css";
 import FormTable from "./components/FormTable";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8080/";
+axios.defaults.baseURL = "https://profile-safe-base-server.onrender.com/";
 
 function App() {
   const [addSection, setAddSection] = useState(false);
